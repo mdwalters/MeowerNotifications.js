@@ -1,5 +1,5 @@
 let notificationRequest = Notification.requestPermission();
-newNotification("MeowerNotifications is ready!", "https://raw.githubusercontent.com/meower-media-co/Meower-Svelte/master/src/assets/avatars/icon_21.svg", "MeowerNotifications");
+newNotification("MeowerNotifications is ready!", "https://raw.githubusercontent.com/BetterMeower-Project/BetterMeower/1.4.0/src/assets/avatars/icon_21.svg", "MeowerNotifications");
 
 function newNotification(body, icon, title) {
     const notification = new Notification(title, { body, icon });
